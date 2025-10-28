@@ -1,0 +1,38 @@
+h1{
+    color: azure;
+    background-color: darkmagenta;
+    text-align: center;
+    position: static;
+}
+
+img{
+width: 200px;
+position: relative;
+left: 650px; 
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.importante {
+    color:red;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 500px;
+    margin: 50px;
+    background-color: deeppink;
+    padding: 50px;
+    border-style: dashed;
+    box-sizing: border-box;
+}
+
+
+
