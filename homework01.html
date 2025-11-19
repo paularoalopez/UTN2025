@@ -2,120 +2,184 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
 
-<body> 
+<body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navegador</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Botón 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Botón 2</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Desplazables
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Desplazable 1</a></li>
-            <li><a class="dropdown-item" href="#">Desplazable 2</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Más</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Botón 3</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Buscador</button>
-      </form>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navegador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Botón 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Botón 2</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Desplazables
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Desplazable 1</a></li>
+              <li><a class="dropdown-item" href="#">Desplazable 2</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Más</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Botón 3</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Buscador</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<div class="alert alert-primary d-flex justify-content-between align-items-center" role="alert">
-    
+  <div class="alert alert-primary d-flex justify-content-between align-items-center" role="alert">
+
     Un cartel luminoso, intento #1
-    
+
     <button type="button" class="btn btn-outline-warning" class="btn btn-primary position-relative">
-        Notificaciones
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-            99+
-            <span class="visually-hidden">unread messages</span>
-        </span>
+      Notificaciones
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
     </button>
-</div>
-
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://picsum.photos/seed/picsum/1200/400" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Primera foto</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium. Repellendus laborum repudiandae veniam, quae consequuntur, qui autem temporibus voluptatem fuga magnam in dolor nam nemo ab placeat quas maxime?</p>
+
+  <h3 class="text-center">
+    Titulo de <small class="text-muted">prueba para encabezado</small>
+  </h3>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/seed/picsum/1200/400" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Primera foto</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium. Repellendus laborum repudiandae
+            veniam, quae consequuntur, qui autem temporibus voluptatem fuga magnam in dolor nam nemo ab placeat quas
+            maxime?</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1200/400?grayscale" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Segunda foto</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, accusamus! At quam, tempora unde quaerat
+            sunt beatae recusandae ipsam, veritatis magni deleniti, quo dolore reprehenderit eum. Obcaecati perspiciatis
+            iure doloribus!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/237/1200/400" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tercera foto</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aliquid reiciendis repellendus corporis
+            temporibus neque, perspiciatis quos officiis dolorum at ex sint, tempore quidem ullam quam commodi eveniet
+            provident consequuntur.</p>
+        </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/1200/400?grayscale" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Segunda foto</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, accusamus! At quam, tempora unde quaerat sunt beatae recusandae ipsam, veritatis magni deleniti, quo dolore reprehenderit eum. Obcaecati perspiciatis iure doloribus!</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/id/237/1200/400" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Tercera foto</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aliquid reiciendis repellendus corporis temporibus neque, perspiciatis quos officiis dolorum at ex sint, tempore quidem ullam quam commodi eveniet provident consequuntur.</p>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6 mx-auto mt-5">
+
+        <form>
+          <fieldset>
+            <legend>Contacto y Datos</legend>
+
+            <div class="mb-3">
+              <label for="textInput" class="form-label">Nombre Completo</label>
+              <input type="text" id="textInput" class="form-control" placeholder="Escribe tu nombre">
+            </div>
+
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com">
+            </div>
+
+            <div class="mb-3">
+              <label for="selectMenu" class="form-label">Opciones</label>
+              <select id="selectMenu" class="form-select">
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+                <option>Opción 3</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="textareaComentarios" class="form-label">Comentarios</label>
+              <textarea class="form-control" id="textareaComentarios" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fieldsetCheck">
+                <label class="form-check-label" for="fieldsetCheck">
+                  Acepto los términos y condiciones
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+          </fieldset>
+        </form>
+
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
+  <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
 
-
-<nav aria-label="Page navigation example" class="d-flex justify-content-center">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
 
