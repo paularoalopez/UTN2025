@@ -1,0 +1,37 @@
+<div class="container" style="margin: 100px auto;">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="mb-4 text-center">Agregar una nueva novedad</h4>
+            <form action="/admin/novedades/agregar" method="post">
+{{!-- INICIO TITULO --}}
+                <div class="mb-3">
+                    <label class="form-label">Título</label>
+                    <input type="text" class="form-control" placeholder="Escribe el título aquí..." name="titulo">
+                </div>
+{{!-- FIN TITULO --}}
+{{!-- INICIO SUBTITULO --}}
+                <div class="mb-3">
+                    <label class="form-label">Subtítulo</label>
+                    <textarea class="form-control" rows="2" placeholder="Un breve resumen..."
+                        name="subtitulo"></textarea>
+                </div>
+{{!-- FIN SUBTITULO --}}
+{{!-- INICIO CUERPO --}}
+                <div class="mb-4">
+                    <label class="form-label">Cuerpo</label>
+                    <textarea class="form-control" rows="5" placeholder="Contenido principal..."
+                        name="cuerpo"></textarea>
+                </div>
+{{!-- FIN CUERPO --}}
+{{!-- BOTON GUARDAR --}}
+                <div class="d-grid"> <button type="submit" class="btn btn-primary btn-lg">Guardar Novedad</button>
+                </div>
+            </form>
+
+            {{#if error}}
+            <p class="text-danger mt-3 text-center">{{message}}</p>
+            {{/if}}
+{{!-- BOTON GUARDAR --}}
+        </div>
+    </div>
+</div>
